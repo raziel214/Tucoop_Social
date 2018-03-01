@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Real Social</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="bank">banca movil</string>
+    <string name="multired">Multi-Red</string>
+    <string name="transitionname_picture">transitionnamepicture</string>
+    <string name="agreement_card">Titulo Convenio</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci </string>
+    <string name="toolbar_tittle">Convenios</string>
+    <string name="toolbar_tittle_Notice">Noticias</string>
+    <string name="toolbar_tittle_Social">Redes Sociales </string>
+    <string name="tittle_social_card">Titulo red social</string>
+    <string name="tittle_service_card">Oficina</string>
+    <string name="toolbar_tittle_service">Servicios</string>
+    <string name="toolbar_tittle_Pool">Encuesta</string>
+    <string name="toolbar_tittle_turn">Turno</string>
+    <string name="title_activity_turn">TurnActivity</string>
+    <string name="toolbar_tittle_simulate">Simulador</string>
+    <string name="direcion">direccion</string>
+
+</resources>

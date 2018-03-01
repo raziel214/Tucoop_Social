@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Real Social</string>
+    <string name="bank">Movil Bank</string>
+    <string name="multired">Multi-Red</string>
+    <string name="transitionname_picture">transitionnamepicture</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci </string>
+    <string name="agreement_card">Title Agreement</string>
+    <string name="toolbar_tittle">Agreement</string>
+    <string name="toolbar_tittle_Notice">Notice</string>
+    <string name="toolbar_tittle_Social">Social Networks</string>
+    <string name="tittle_social_card">Social network title</string>
+    <string name="tittle_service_card">Office</string>
+    <string name="toolbar_tittle_service">Service</string>
+    <string name="toolbar_tittle_Pool">Encuesta</string>
+    <string name="toolbar_tittle_turn">Turno</string>
+    <string name="toolbar_tittle_simulate">Simulador</string>
+    <string name="direcion">direccion</string>
+
+</resources>

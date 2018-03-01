@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs  xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+
+        id="@+id/pagar1"
+        android:state_checked="true"
+        barColorWhenSelected="@color/transparent"
+         />
+
+
+    <tab
+
+        id="@+id/pagar"
+        android:state_checked="true"
+        barColorWhenSelected="@color/transparent"
+        icon="@drawable/pagar"
+        />
+    <tab
+
+        id="@+id/pagar3"
+        android:state_checked="true"
+        barColorWhenSelected="@color/transparent"
+         />
+
+
+    <tab
+        id="@+id/cobrar"
+        barColorWhenSelected="@color/transparent"
+        android:state_checked="true"
+        icon="@drawable/cobrar" />
+    <tab
+        id="@+id/cobrar1"
+        barColorWhenSelected="@color/transparent"
+        android:state_checked="true"
+         />
+
+
+
+
+
+
+
+</tabs>

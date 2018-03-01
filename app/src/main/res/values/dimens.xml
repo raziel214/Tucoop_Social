@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bottombar_heigt">60dp</dimen>
+    <dimen name="cornerradius_cardview">20dp</dimen>
+    <dimen name="height_cardview">150dp</dimen>
+    <dimen name="horizontal_margin_recyclerview">10dp</dimen>
+    <dimen name="vertical_margin_recyclerview">15dp</dimen>
+    <dimen name="bottombar_top">49dp</dimen>
+    <dimen name="bottombar_top1">35dp</dimen>
+    <dimen name="height_cardview_agreement">200dp</dimen>
+    <dimen name="cornerradius_cardview_agreement">6dp</dimen>
+    <dimen name="agreement_card">120dp</dimen>
+    <dimen name="textsize_username_card">25sp</dimen>
+    <dimen name="textsize_content_card">18sp</dimen>
+    <dimen name="imagecard_agreement">200dp</dimen>
+    <dimen name="margin_topmin">0dp</dimen>
+    <dimen name="height_cardview_service">180dp</dimen>
+    <dimen name="horizontal_margin_recyclerview2">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="cornerradius_detailoficce">28dp</dimen>
+    <dimen name="fontService">15sp</dimen>
+
+
+</resources>

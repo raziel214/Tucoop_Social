@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fondo1"
+    android:layout_centerInParent="true"
+    tools:context="com.taylor_johnson.realsocialnew.Activities.MainActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <include layout="@layout/actionbar_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/include8"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></include>
+    <!--<include layout="@layout/bottombar"></include>-->
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_tooldown"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_gravity="bottom|end"
+        android:elevation="2dp"
+        android:background="@drawable/mybottomimg"
+        android:layout_alignParentBottom="true"
+        tools:targetApi="lollipop"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:baselineAlignBottom="true"
+            android:id="@+id/imgbtnmultired"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/pagar"
+            android:contentDescription=""
+            tools:ignore="ContentDescription"
+            android:layout_alignBottom="@+id/imgbtnbanca" />
+
+
+
+        <ImageButton
+            android:layout_width="54dp"
+            android:layout_height="50dp"
+            android:baselineAlignBottom="true"
+            android:id="@+id/imgbtnbanca"
+            android:background="@drawable/cobrar"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="@dimen/bottombar_heigt"
+        android:paddingTop="@dimen/bottombar_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:paddingTop="@dimen/vertical_margin_recyclerview">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/pictureRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/horizontal_margin_recyclerview2"
+                android:paddingRight="@dimen/horizontal_margin_recyclerview"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
+
